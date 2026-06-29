@@ -1,0 +1,10 @@
+# Exclude notebooks with secrets
+notebooks/setup.py.ipynb
+
+# Exclude any config files with credentials
+**/config.py
+*.env
+.env.*
+
+# Databricks metadata
+.databricks/
